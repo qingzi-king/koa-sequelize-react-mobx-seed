@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "root",
+    "password": "123456",
+    "database": "xxx",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "timezone": "+08:00"
+  },
+  "production": {
+    "username": "xx",
+    "password": "xx",
+    "database": "xx",
+    "host": "xx",
+    "dialect": "mysql",
+    "logging": false,
+    "timezone": "+08:00"
+  },
+  "staging": {
+    "username": "xx",
+    "password": "xx",
+    "database": "xx",
+    "host": "xx",
+    "port": "63650",
+    "dialect": "mysql",
+    "logging": false,
+    "timezone": "+08:00"
+  }
+}
