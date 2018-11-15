@@ -1,0 +1,48 @@
+{
+  "name": "koa-sequelize-react-mobx-seed",
+  "version": "1.0.0",
+  "description": "基于Koa 2、Sequelize 4.41.2、React 16.6.2、Mobx 5.6.0搭建的种子项目",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qingzi-king/koa-sequelize-react-mobx-seed.git"
+  },
+  "keywords": [
+    "nodejs",
+    "koa2",
+    "react",
+    "sequelize",
+    "mobx"
+  ],
+  "author": "carkings",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qingzi-king/koa-sequelize-react-mobx-seed/issues"
+  },
+  "homepage": "https://github.com/qingzi-king/koa-sequelize-react-mobx-seed#readme",
+  "dependencies": {
+    "@koa/cors": "2.2.2",
+    "koa": "2.6.2",
+    "koa-bodyparser": "4.2.1",
+    "koa-ejs": "4.1.2",
+    "koa-logger": "3.2.0",
+    "koa-multer": "1.0.2",
+    "koa-onerror": "4.1.0",
+    "koa-passport": "4.1.1",
+    "koa-router": "7.4.0",
+    "koa-session": "5.10.0",
+    "koa-static": "5.0.0",
+    "sequelize": "4.41.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.6",
+    "ws": "6.1.0"
+  }
+}
